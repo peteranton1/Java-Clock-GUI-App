@@ -12,8 +12,6 @@ public class ClockFrame extends JFrame {
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setTitle("My Clock Program");
     this.setSize(440, 350);
-    this.setBackground(Color.blue);
-    this.setResizable(true);
 
     clockLayout = new ClockLayout(this);
 
